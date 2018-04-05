@@ -8,4 +8,14 @@
             <h1>Looking pretty boring here... wish I had some CSS</h1>
             <p>D3 Has been loaded into this page from a CDN.</p>
         </body>
+
+        <script>
+        d3.select("body")
+        .append("p")
+        .text("appended new paragraph")
+
+        d3.select("body")
+        .select("p")
+        .text("selected and replaced D3 boiler text")
+        </script>
     </html>
