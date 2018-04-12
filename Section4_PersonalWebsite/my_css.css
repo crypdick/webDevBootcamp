@@ -1,9 +1,15 @@
 body{
   background-color: pink;
+   background-image: url("https://i.redd.it/1p5bx2yl4cr01.gif");
+    background-repeat: repeat-xy;
+    color: white;
 }
 
 h1 {
-  color: blue;
+  color: red;
+    border-radius: 15px 50px;
+    background: #73AD21;
+    padding: 20px;
 }
 
 .container > div {
